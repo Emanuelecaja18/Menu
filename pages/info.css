@@ -1,0 +1,87 @@
+iframe {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    box-shadow: black 0 0 15px 0;
+}
+
+div:has(.where):nth-child(1) {
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+div:has(.where) {
+    align-items: center;
+    margin: 40px 0 10px 0;
+}
+
+.where {
+    margin: 0;
+}
+
+.line {
+    background: rgba(255,255,255,.5);
+    flex-grow: 1;
+    height: 2px;
+    margin: 0 10px;
+}
+
+.socials {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-auto-flow: column;
+    gap: 20px;
+    margin: 15px 0;
+}
+
+.socials > div {
+    background: rgba(0,0,0,.15);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,.5);
+    box-shadow: black 5px 5px 30px -2px;
+    transition: opacity .1s;
+}
+
+.socials > div > div, .info > div > div {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 22px;
+    width: 22px;
+    margin: 8px;
+}
+
+.socials > div:hover {
+    opacity: .7;
+}
+
+.lowerinfo {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+}
+
+a {
+    color: rgb(228, 214, 25);
+}
+
+.info > div {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.info > div > div {
+    height: 25px;
+    width: 25px;
+    margin: 0;
+    filter: invert();
+    margin-right: 15px;
+}
+
+.info p, .info a {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}

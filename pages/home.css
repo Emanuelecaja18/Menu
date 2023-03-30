@@ -1,0 +1,53 @@
+.cards {
+    padding: 0 20px;
+}
+
+.card {
+    position: relative;
+    background: linear-gradient(-35deg, rgba(0,0,0,0.1) 50%, rgba(255,255,255,0.05) 100%);
+    width: 100%;
+    border-radius: 10px;
+    border: 1.5px rgba(255,255,255,.15) solid;
+    height: 100px;
+    display: inline-block;
+    margin-top: 20px;
+    overflow: hidden;
+    transition: filter .5s;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: rgba(0,0,0, .5) 2px 2px 20px 0px;
+    cursor: pointer;
+}
+
+.card:hover {
+    filter: brightness(150%);
+}
+
+.card p:nth-child(1) {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    margin: 0;
+}
+
+.card p:nth-child(2) {
+    position: absolute;
+    font-size: 15px;
+    color: rgba(255,255,255,.5);
+    top: 25px;
+    left: 15px;
+    width: 50%;
+}
+
+.card .img {
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    filter: blur(1.3px);
+    height: 150%;
+    width: 50%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    -webkit-mask-image: linear-gradient(115deg, rgba(0,0,0,0) 30%, rgba(255,255,255,0.4) 100%);
+}

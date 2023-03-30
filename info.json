@@ -1,0 +1,104 @@
+{
+    "piatti": {
+        "primi": {
+            "img": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/36C4D0A8-A26C-438B-9871-27ABEABB2E66/Derivates/A94C5717-A483-4ADF-B8AE-6D170994FEA1.jpg",
+            "list": [
+                {
+                    "title": "Carbonara",
+                    "desc": "Carbone",
+                    "contains": ["gluten", "dairy"],
+                    "price": "16.99"
+                },
+                {
+                    "title": "Norma",
+                    "desc": "Melanzane fritte, Ricotta salata, Pasta fresca",
+                    "contains": ["gluten", "eggs"],
+                    "price": "28.99"
+                },
+                {
+                    "title": "Amatriciana",
+                    "desc": "Spaghetti, pomodoro",
+                    "contains": ["gluten"],
+                    "price": "59.99"
+                }
+            ]
+        },
+        "secondi": {
+            "img": "https://wips.plug.it/cips/paginegialle.it/magazine/cms/2022/03/carne-pregiata.jpg?w=744&h=418&a=c",
+            "list": [
+                {
+                    "title": "Carne",
+                    "desc": "Bistecca di manzo",
+                    "contains": [],
+                    "price": "16.99"
+                },
+                {
+                    "title": "Pesce",
+                    "desc": "Pesce",
+                    "contains": ["fish"],
+                    "price": "28.99"
+                },
+                {
+                    "title": "Hamburger",
+                    "desc": "Pane, carne, lattuga, formaggio",
+                    "contains": ["gluten"],
+                    "price": "59.99"
+                }
+            ]
+        },
+        "dessert": {
+            "img": "https://insanelygoodrecipes.com/wp-content/uploads/2022/07/Assorted-Gelato-Ice-Cream-with-Berries-Chocolate-and-Pistachio.jpg",
+            "list": [
+                {
+                    "title": "Gelato",
+                    "desc": "",
+                    "contains": ["dairy"],
+                    "price": "16.99"
+                },
+                {
+                    "title": "Gelato",
+                    "desc": "",
+                    "contains": ["dairy"],
+                    "price": "16.99"
+                },
+                {
+                    "title": "Gelato",
+                    "desc": "",
+                    "contains": ["dairy"],
+                    "price": "16.99"
+                }
+            ]
+        },
+        "bibite": {
+            "img": "https://storage0.dms.mpinteractiv.ro/media/401/341/5531/16106019/1/alege-ti-coca-cola-preferata.jpg",
+            "list": [
+                {
+                    "title": "Acqua Naturale",
+                    "desc": "",
+                    "contains": [],
+                    "price": "1.50",
+                    "noP": true
+                },
+                {
+                    "title": "Coca-Cola",
+                    "desc": "",
+                    "contains": [],
+                    "price": "2.50",
+                    "noP": true
+                },
+                {
+                    "title": "Fanta",
+                    "desc": "",
+                    "contains": [],
+                    "price": "2.50",
+                    "noP": true
+                }
+            ]
+        }
+    },
+    "keywords": {
+        "pomodoro": {
+            "en": "tomato"
+        }
+    }
+}

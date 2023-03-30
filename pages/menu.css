@@ -1,0 +1,82 @@
+.title {
+    display: flex;
+    margin: 0 15px 25px 15px;
+    user-select: none;
+}
+
+.title:not(:nth-child(1)) {
+    display: flex;
+    margin: 25px 15px 25px 15px;
+}
+
+.title div {
+    flex-grow: 1;
+    height: 5px;
+    background: linear-gradient(transparent 25%, white 50%, transparent 75%);
+    margin: auto;
+    opacity: .3;
+}
+
+.title h1 {
+    margin: 0 15px;
+    font-size: 30px;
+}
+
+
+
+.item p {
+    margin: 0;
+}
+
+.item .price {
+    font-size: 25px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    background: rgba(0,0,0,.1);
+}
+
+.item:not(.noP):hover {
+    opacity: .6;
+}
+
+.item:nth-child(even) {
+    background: rgba(255,255,255,.03);
+}
+
+.item .info {
+    flex-grow: 1;
+}
+
+.item .info .contains {
+    display: flex;
+    margin-top: 5px;
+}
+
+.item .info .contains > div {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 7px;
+    filter: invert();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+.gluten {
+    background: url('https://img.icons8.com/ios-glyphs/256/gluten.png');
+}
+.dairy {
+    background: url('https://img.icons8.com/ios-glyphs/256/milk-bottle.png');
+}
+.eggs {
+    background: url('https://img.icons8.com/ios-glyphs/256/eggs--v2.png');
+}
+.fish {
+    background: url('https://img.icons8.com/ios-glyphs/256/fish-food.png');
+}
